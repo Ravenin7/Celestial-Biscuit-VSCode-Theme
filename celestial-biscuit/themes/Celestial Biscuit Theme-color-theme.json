@@ -1,7 +1,7 @@
 {
 	"name": "Celestial Biscuit Theme",
 	"colors": {
-		"editor.background": "#263238",
+		"editor.background": "#FFF00F",
 		"editor.foreground": "#eeffff",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb"
