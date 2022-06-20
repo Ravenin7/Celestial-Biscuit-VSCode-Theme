@@ -1,10 +1,10 @@
 {
 	"name": "Celestial Biscuit Theme",
 	"colors": {
-		"editor.background": "#FFF00F",
-		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"editor.background": "#D8D8D8",
+		"editor.foreground": "#000000",
+		"activityBarBadge.background": "#FFF0F0",
+		"sideBarTitle.foreground": "#000000"
 	},
 	"tokenColors": [
 		{
@@ -15,7 +15,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"foreground": "#183048"
 			}
 		},
 		{
