@@ -1,0 +1,21 @@
+{
+    "name": "celestial-biscuit",
+    "displayName": "Celestial Biscuit",
+    "description": "The theme is designed based on Celestial Bodies",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Celestial Biscuit",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Celestial Biscuit-color-theme.json"
+            }
+        ]
+    }
+}
