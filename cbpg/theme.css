@@ -7,3 +7,8 @@
     background-color:rgb(28, 92, 144);
     
 }
+button{
+    color: rgb(28, 92, 144);
+    text-decoration: underline;
+    background-color: antiquewhite;
+}
