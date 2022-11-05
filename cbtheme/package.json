@@ -1,0 +1,21 @@
+{
+    "name": "cbtheme",
+    "displayName": "cbtheme",
+    "description": "cbtheme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.73.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "cbtheme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/cbtheme-color-theme.json"
+            }
+        ]
+    }
+}
