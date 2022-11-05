@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    height: 400px;
+    background: linear-gradient(to right, #ff66ff 12%, #cc0099 78%)
+}
+
+div {
+    height: 200px;
+    background: linear-gradient(to right, #f2f2f2 45%, #ffffff 80%)
+}
+
+.theme {
+	text-align: center;
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: purple;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+</head>
+<body>
+
+<h1 style="text-align:center; color:purple;">SELECT THE THEME YOU LIKE</h1>
+<table class="theme">
+<tr>
+	<td><div><a src="#"><img src="theme1.jpg" alt="Cannot be previewed"><br><button class="button" style="vertical-align:middle"><span>DOWNLOAD1</span></button></br></a></div></td>
+
+	<td><div><a src="#"><img src="theme1.jpg" alt="Cannot be previewed"><br><button class="button" style="vertical-align:middle"><span>DOWNLOAD2</span></button></br></a></div></td>
+
+	<td><div><a src="#"><img src="theme1.jpg" alt="Cannot be previewed"><br><button class="button" style="vertical-align:middle"><span>DOWNLOAD3</span></button></br></a></div></td>
+
+</tr>
+<tr>
+	
+	<td><div><a src="#"><img src="theme1.jpg" alt="Cannot be previewed"><br><button class="button" style="vertical-align:middle"><span>DOWNLOAD4</span></button></br></a></div></td>
+
+	<td><div><a src="#"><img src="theme1.jpg" alt="Cannot be previewed"><br><button class="button" style="vertical-align:middle"><span>DOWNLOAD5</span></button></br></a></div></td>
+
+	<td><div><a src="#"><img src="theme1.jpg" alt="Cannot be previewed"><br><button class="button" style="vertical-align:middle"><span>DOWNLOAD6</span></button></br></a></div></td>
+</tr>
+</table>
+
+
+</body>
+</html>

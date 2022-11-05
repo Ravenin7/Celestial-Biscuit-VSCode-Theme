@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+window.onscroll = function () {
+    var height = $(window).height();
+    var scrollTop = $(window).scrollTop();
+    var obj = $('#scroll');
+    var pos = obj.position();
+    if (height + scrollTop < pos.top) {
+       $('.button').fadeIn();
+    }
+    else {
+       $('.button').fadeOut(); 
+    }
+}
+</script>
+<style>
+@import url(https://fonts.googleapis.com/css?family=Oxygen:400,300);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.intro{
+  margin: auto;
+}
+.black {
+  width: 50%;
+  float: left;
+  background: #283644;
+  height: 100vh;
+}
+
+.white{
+  width: 50%;
+  float: right;
+  background: #4D727E;
+  height: 100vh;
+}
+
+.box{
+  height: 300px;
+  width: 500px;
+  background: #069A8E;
+  position:absolute;
+  top:150px;
+  left:0;
+  right:0;
+  margin:auto;
+  border-radius:20px;
+}
+
+.boxfather{
+  width:100%;
+  position:absolute;
+}
+.box h1{
+  color: #E4E4E4;
+  font-size: 5em;
+  text-align: center;
+  position: relative;
+  top:70px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.box button{
+  left:43%;
+  position:relative;
+  top:120px;
+  padding: 8px 20px;
+  cursor:pointer;
+  border:0;
+  outline:none;
+  color:#525252;
+  background:#E4E4E4;
+  transition:all .3s ease;
+  font-size: 19px;
+  font-family: montserrat;
+  border-radius:5px;
+}
+.homepage{
+  height: 100vh;
+  position:relative;
+  top:40px;
+  text-align: center;
+  
+ 
+}
+.homepage p{
+  width: 80%;
+  line-height: 1.5;
+  margin:50px auto;
+  font-family: oxygen;
+  font-size: 18px;
+  color: #585858;
+}
+.homepage h1{
+  padding-top: 50px;
+  width: 80%;
+  margin:auto;
+  font-family: montserrat;
+  color: #525252;
+  font-size: 40px;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.bg {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+.button {
+  border-radius: 20px;
+  padding: 8px;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  position: fixed;
+  bottom: 8%;
+  background: #ccc;
+}
+
+.button__arrow {
+  background-color: transparent;
+  height: 12px;
+  width: 12px;
+}
+
+.button__arrow--down {
+  border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+  border-right: 3px solid rgba(0, 0, 0, 0.3);
+  transform: translateY(-25%) rotate(45deg);
+}
+
+.rest {
+  width: 100%;
+  height: 100vh;
+  background-color: aliceblue;
+}
+
+</style>
+</head>
+
+<body class="body">
+<body>
+  <div class="bg">
+    <a href="C:/Users/meghn/HTML/theme1.htm" class="button">
+      <div class="button__arrow button__arrow--down"></div>
+    </a>
+  </div>
+  <div id="scroll" class="rest"></div>
+</body>
+<div class="intro">
+
+    <div class="black"></div>  
+    <div class="white"></div>
+    <div class="boxfather">
+      <div class="box">
+        <h1>VS CODE THEMES</h1>
+       <a href="C:/Users/meghn/HTML/theme1.htm"><button>Enter</button></a>
+      </div>
+    </div>
+    
+  </div>
+</body>
+</html>
+
