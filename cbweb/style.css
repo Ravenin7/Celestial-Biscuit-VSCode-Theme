@@ -219,7 +219,7 @@ section {
     width: 30px;
     border: transparent;
     position: absolute;
-    left: 50%;
+    left: 49.62%;
     top: 20px;
     cursor: pointer;
 }
@@ -240,7 +240,8 @@ section {
 }
 
 @keyframes scroll-up {
-    0% {        
+    0% {
+        /* top:20%; */
         opacity: 0;
     }
 
@@ -278,6 +279,7 @@ section {
     left: 154px;
     top: 105px;
     width: 100%;
+    /* margin-left: 40px; */
     display: flex;
     flex-direction: row;
     height: 400px;
@@ -288,6 +290,7 @@ section {
     left: 154px;
     top: 464px;
     width: 100%;
+    /* margin-left: 40px; */
     display: flex;
     flex-direction: row;
     height: 400px;
@@ -298,10 +301,11 @@ section {
     width: 267px;
     height: 275px;
     padding: 10px 20px;
-    background-color: #D9D9D9;
+    background-color: #f7f7f7;
     box-shadow: 2px 2px 5px #999;
     border-radius: 20px;
     margin-right: 150px;
+    /* margin-left: 70px; */
     transition: box-shadow 0.5s;
     transition: transform 0.4s;
     -webkit-font-smoothing: antialiased;
@@ -336,6 +340,8 @@ section {
     font-weight: 500;
     font-size: 23px;
     line-height: 45px;
+    /* identical to box height */
+
 
     color: #4B0086;
 }
@@ -343,6 +349,8 @@ section {
 .card-content {
     position: absolute;
     bottom: 0;
+    /* font-weight: 100;
+    font-size: 0.75em; */
 }
 
 .button {
