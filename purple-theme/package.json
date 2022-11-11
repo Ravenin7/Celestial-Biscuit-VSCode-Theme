@@ -1,0 +1,22 @@
+{
+  "name": "purple-theme",
+  "displayName": "Purple_Theme",
+  "publisher": "CelestialBiscuit28",
+  "description": "This extension is a vscode theme created by Shreyal Gupta. It uses a purple, green and red colour palette.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Purple_Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Purple_Theme-color-theme.json"
+      }
+    ]
+  }
+}
