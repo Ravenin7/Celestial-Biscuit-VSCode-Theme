@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Celestial VSCode Themes</title>
+    <link rel="stylesheet" href="themefinal.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            
+            $("a").on('click', function (event) {
+
+                if (this.hash !== "") {
+                    
+                    event.preventDefault();
+
+                    var hash = this.hash;
+                    
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        window.location.hash = hash;
+                    });
+                } 
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <section id="sec-1">
+        <div id="dsn">
+            <div id="pr">
+                <img id="purp" src="background images\p2.png" style="width: 100vw;" />
+            </div>
+            <div class="row" id="cb">
+                <img id="cel" src="background images\cel2.jpg" style="
+            width: 121.75px;
+            height: 143.68px;
+            " />
+                <img id="cbig" src="background images\cbig.png" style="width: 88px;
+            height: 57px;" />
+
+
+                
+            </div>
+            <div id="vs">
+               
+                <p id="vsc">VSCode Themes</p>
+
+            </div>
+            <div id="rock">
+                <img id="rk" src="background images\rock2.jpg" style =/>
+            </div>
+        </div>
+        <a href="#sec-2">
+            <div class="scroll-down"></div>
+        </a>
+    </section>
+    <section id="sec-2">
+        <div class="container">
+            <div id="drk"></div>
+            <div id="drk2"></div>
+            <a href="#sec-1">
+                <div class="scroll-up"></div>
+            </a>
+            
+        </div>
+        <div class="content">
+        <div id="r1">
+            <div class="card">
+                <img src="D:\background images\purple theme.jpg" alt="" class="card-image">
+                <h3 class="card-title">Purple Theme</h3>
+                <p class="card-content"><button class="button" style="vertical-align:middle"><span>DOWNLOAD</span></button></p>
+            </div>
+            <div class="card">
+                <img src="theme 2.jpg" alt="" class="card-image">
+                <h3 class="card-title">Theme Name</h3>
+                <p class="card-content"><button class="button" style="vertical-align:middle"><span>DOWNLOAD</span></button></p>
+            </div>
+            <div class="card">
+                <img src="theme 3.jpg" alt="" class="card-image">
+                <h3 class="card-title">Theme Name</h3> 
+                <p class="card-content"><button class="button" style="vertical-align:middle"><span>DOWNLOAD</span></button></p>
+            </div>
+        </div>
+        <div id="r2">
+            <div class="card">
+                <img src="theme 4.jpg" alt="" class="card-image">
+                <h3 class="card-title">Theme Name</h3>
+                <p class="card-content"><button class="button" style="vertical-align:middle"><span>DOWNLOAD</span></button></p>
+            </div>
+            <div class="card">
+                <img src="theme 5.jpg" alt="" class="card-image">
+                <h3 class="card-title">Theme Name</h3>
+                <p class="card-content"><button class="button" style="vertical-align:middle"><span>DOWNLOAD</span></button></p>
+            </div>
+            <div class="card">
+                <img src="theme 6.jpg" alt="" class="card-image">
+                <h3 class="card-title">Theme Name</h3>
+                <p class="card-content"><button class="button" style="vertical-align:middle"><span>DOWNLOAD</span></button></p>
+            </div>
+        </div>
+    </div>
+    </section>
+ 
+</body>
+
+</html>
