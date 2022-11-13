@@ -401,3 +401,26 @@ section {
     opacity: 1;
     right: 0;
 }
+
+@media screen {
+    #dsn #rock {
+        position: absolute;
+        top: 75px;
+        display: flex;
+        width: 100%;
+        top: 0;
+        right: 0;
+    }
+    
+    #dsn #rk {
+        z-index: 2;
+        position: absolute;
+        right: 75px;
+        height: 222px;
+        right: 0;
+        transform: translate(-123.7 px, 0px);
+        top: auto;
+        object-position: fixed;
+    }
+    
+}
