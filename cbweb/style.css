@@ -428,5 +428,10 @@ section {
     .menu, .main, .right {
     width: 100%;
   }
-
+   @media screen and (max-width: 720px) {
+       .site{font-size: 20px;}
+       
+       .home-inner{
+           margin-left: 10px;
+       }
 }
